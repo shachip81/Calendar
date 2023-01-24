@@ -15,10 +15,7 @@ body,
   flex-wrap: wrap;
   justify-content: space-between;
   height: 50px;
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  text-align: center;
+  width: 80%;
 }
 
 .month {
