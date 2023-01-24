@@ -15,7 +15,7 @@ body,
   flex-wrap: wrap;
   justify-content: space-between;
   height: 50px;
-  width: 80%;
+  width: 100%;
 }
 
 .month {
