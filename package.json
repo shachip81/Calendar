@@ -8,10 +8,11 @@
     "moment": "2.24.0",
     "react": "16.8.3",
     "react-big-calendar": "0.20.3",
+    "react-burger-menu": "^3.0.9",
     "react-dom": "16.8.3",
+    "react-router-dom": "^6.7.0",
     "react-scripts": "2.0.3"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",

@@ -5,6 +5,7 @@ import moment from 'moment'
 import Year from './Year'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 import './styles.css'
+import Sidebar from './SideBar';
 
 // Setup the localizer by providing the moment (or globalize) Object
 // to the correct localizer.
@@ -15,7 +16,8 @@ localizer.formats.yearHeaderFormat = 'YYYY'
 class App extends React.Component {
   render() {
     return (
-      <div className="app">
+      <div className="app" >
+        <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
         <BigCalendar
           localizer={localizer}
           events={[]}
